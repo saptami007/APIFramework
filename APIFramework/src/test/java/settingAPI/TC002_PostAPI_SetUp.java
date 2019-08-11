@@ -14,6 +14,7 @@ import io.restassured.specification.RequestSpecification;
 public class TC002_PostAPI_SetUp {
 	static Response response;
 	int statusCode;
+@SuppressWarnings("unchecked")
 @Test
 	public void setUp() {
 		RequestSpecification httpRequest=RestAssured.given();
