@@ -19,6 +19,7 @@ import io.restassured.response.Response;
 
 public class TC001_GetAPI_SetUp {
 	static Response response;
+	@SuppressWarnings("unchecked")
 	@Test
 	public void setUp() throws IOException {
 		
