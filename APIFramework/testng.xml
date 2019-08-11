@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="settingAPI.TC001_GetAPI_SetUp"/>
+      <class name="settingAPI.TC002_PostAPI_SetUp"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

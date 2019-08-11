@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-11T17:31:41Z" name="Default suite" finished-at="2019-08-11T17:31:42Z" duration-ms="1483">
+  <suite started-at="2019-08-11T20:57:25Z" name="Default suite" finished-at="2019-08-11T20:57:26Z" duration-ms="1324">
     <groups>
     </groups>
-    <test started-at="2019-08-11T17:31:41Z" name="Default test" finished-at="2019-08-11T17:31:42Z" duration-ms="1483">
-      <class name="settingAPI.TC001_GetAPI_SetUp">
-        <test-method signature="setUp()[pri:0, instance:settingAPI.TC001_GetAPI_SetUp@7f9fcf7f]" started-at="2019-08-11T17:31:41Z" name="setUp" finished-at="2019-08-11T17:31:42Z" duration-ms="1465" status="PASS">
+    <test started-at="2019-08-11T20:57:25Z" name="Default test" finished-at="2019-08-11T20:57:26Z" duration-ms="1324">
+      <class name="settingAPI.TC002_PostAPI_SetUp">
+        <test-method signature="setUp()[pri:0, instance:settingAPI.TC002_PostAPI_SetUp@2d2e5f00]" started-at="2019-08-11T20:57:25Z" name="setUp" finished-at="2019-08-11T20:57:26Z" duration-ms="1310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-      </class> <!-- settingAPI.TC001_GetAPI_SetUp -->
+      </class> <!-- settingAPI.TC002_PostAPI_SetUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
