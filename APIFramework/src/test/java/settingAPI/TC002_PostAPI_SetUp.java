@@ -37,7 +37,7 @@ public class TC002_PostAPI_SetUp {
 				response();
 		System.out.println(response.asString());
 		statusCode=response.getStatusCode();
-		if(statusCode==400) {
+		if(statusCode==200) {
 			System.out.println("The Status Code is: "+statusCode);
 			System.out.println("Successful Transaction");
 		}
