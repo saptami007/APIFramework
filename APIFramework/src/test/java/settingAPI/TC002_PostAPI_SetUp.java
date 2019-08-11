@@ -4,6 +4,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 import org.json.simple.JSONObject;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -36,11 +37,12 @@ public class TC002_PostAPI_SetUp {
 				extract().
 				response();
 		System.out.println(response.asString());
+		Assert.assertEquals(200, statusCode);
 		statusCode=response.getStatusCode();
-		if(statusCode==200) {
-			System.out.println("The Status Code is: "+statusCode);
-			System.out.println("Successful Transaction");
-		}
+//		if(statusCode==200) {
+//			System.out.println("The Status Code is: "+statusCode);
+//			System.out.println("Successful Transaction");
+//		}
 		
 	}
 	
