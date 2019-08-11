@@ -5,6 +5,7 @@
     <classes>
       <class name="settingAPI.TC001_GetAPI_SetUp"/>
       <class name="settingAPI.TC002_PostAPI_SetUp"/>
+      <class name="settingAPI.TC001_Alternative_PostAPI_Call"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

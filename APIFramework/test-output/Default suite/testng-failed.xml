@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="settingAPI.TC002_PostAPI_SetUp">
+      <class name="settingAPI.TC001_Alternative_PostAPI_Call">
         <methods>
-          <include name="setUp"/>
+          <include name="alternativePostSetUp"/>
         </methods>
-      </class> <!-- settingAPI.TC002_PostAPI_SetUp -->
+      </class> <!-- settingAPI.TC001_Alternative_PostAPI_Call -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
